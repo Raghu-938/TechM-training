@@ -1,0 +1,40 @@
+html{
+    color-scheme: light dark;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+    width: 300px;
+    height: 300px;
+    padding: 100px;
+    border: 1px solid black;
+    background: black;
+    border-radius: 8px;
+    display: grid;
+    gap: 20px;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto;
+ 
+}
+
+.item{
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(90deg, #2c8aed, #f83959);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.id1{
+    background-color: aqua;
+    
+}
+
